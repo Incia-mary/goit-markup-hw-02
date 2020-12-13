@@ -13,42 +13,43 @@
 <body>
     <!--шапка сайта-->
     <header>
+        <div class="top">
         <!--блок навигации-->
-            <nav>
-        <a href=""> WebStudio </a>
+            <nav class="site-nav">
+                <div class="logo">  
+        <a href=""> <span class="accent" >Web</span> Studio </a>
+        </div>
         <!--ссылки на другие страницы-->
-        <ul>
-            <li> 
+        <ul class="link" >
+            <li class="link-studio current"> 
                 <a href=""> Студия </a> 
             </li>
-            <li> 
+            <li class="link-portfolio"> 
                 <a href="portfolio.html"> Портфолио </a> 
             </li>
-            <li> 
+            <li class="link-contact"> 
                 <a href=""> Контакты </a> 
             </li>
             
         </ul>
         </nav>
         <!--ссылки на контакты-->
-         <ul>
-             <li> <a href="mailto:info@devstudio.com"> info@devstudio.com </a> </li>
-             <li> <a href="tel:+380961111111"> +38 096 111 11 11 </a> </li>
+         <ul class="mail-tel">
+             <li class="mail" > <a href="mailto:info@devstudio.com"> info@devstudio.com </a> </li>
+             <li class="tel" > <a href="tel:+380961111111"> +38 096 111 11 11 </a> </li>
              
          </ul>
-        
+        </div>
         </header>
         <!--главный заголовок-->
-        <div>
-            <section> 
-                <h1> Эффективные решения для вашего бизнеса </h1>
-                <a href=""> Заказать услугу </a>
+                    <section class="banner"> 
+                <h1 class="main-title"> Эффективные решения для вашего бизнеса </h1>
+                <a href="" class="button"> Заказать услугу </a>
             </section>
-        </div>
-        <!--основная часть сайта-->
+               <!--основная часть сайта-->
         <main>
             <!--блок особенностей, буллеты-->
-            <section>
+            <section class="bullet" >
                 <ul>
                     <li>
                         <h3> Внимание к деталям </h3>
@@ -68,7 +69,7 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <section class="direct" >
                 <!--блок направлений работы-->
                 <h2>Чем мы занимаемся</h2>
                 <ul>
@@ -77,7 +78,7 @@
                     <li> <img src="images/box3.jpg" alt="Tablet" width="370"> </li>                         
                 </ul>
             </section>
-            <section>
+            <section class="hero" >
                 <!--блок герои-->
                 <h2> Наша команда </h2>
                 <ul>
@@ -105,7 +106,7 @@
             </section>
         </main>
         <!--подвал сайта-->
-    <footer>
+    <footer class="footer" >
       <a href=""> WebStudio </a> 
     <!--блок контактов в подвале-->
     <ul>
