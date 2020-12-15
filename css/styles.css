@@ -53,7 +53,7 @@ a {
   color: var(--accent-color);
 }
 
-.link:current {
+.link.current {
   color: var(--accent-color);
 }
 
